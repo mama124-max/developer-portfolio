@@ -45,7 +45,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // GitHub integration — set your GitHub username or organisation
   // below and the latest public repositories load automatically.
   // ==========================================================
-  const GITHUB_USERNAME = "your-username";
+  const GITHUB_USERNAME = "mama124-max";
 
   const ghRepos = document.getElementById("ghRepos");
   const esc = (t) => String(t ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));

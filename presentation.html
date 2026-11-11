@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="A six-slide presentation of Team MSC's BeTechified Week 11 advanced class project." />
+  <title>Team MSC Developer Portfolio Website — Presentation</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Manrope:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/presentation.css" />
+</head>
+<body>
+  <main class="deck-shell">
+    <header class="deck-topbar">
+      <a class="deck-brand" href="index.html"><span class="brand-mark">MSC</span> BeTechified <span class="brand-divider">/</span> Week 11</a>
+      <a class="back-link" href="index.html"><i class="bi bi-arrow-left"></i> Portfolio</a>
+    </header>
+
+    <div class="slide-stage" id="slideStage" aria-live="polite">
+      <section class="slide slide-cover is-active" id="slide-1" aria-labelledby="slide1-title">
+        <div class="cover-copy">
+          <p class="eyebrow"><span class="eyebrow-dot"></span> BeTechified · Advanced Class Project</p>
+          <p class="cover-kicker">TEAM MSC PRESENTS</p>
+          <h1 id="slide1-title">Team MSC<br /><em>Developer Portfolio</em><br />Website</h1>
+          <p class="cover-subtitle">A collaborative, responsive showcase of our team, skills and work.</p>
+          <div class="cover-meta"><span><i class="bi bi-calendar3"></i> Week 11</span><span><i class="bi bi-clock"></i> 10-minute presentation</span></div>
+          <div class="cover-team" aria-label="Project team">
+            <div><strong>Mama S. Ceesay</strong><span>Project Leader &amp; Workflow Lead</span></div>
+            <div><strong>Aziegbe Favour Osetuohamen</strong><span>Presentation Slides &amp; UI/UX Lead</span></div>
+            <div><strong>Johnson Victor</strong><span>Frontend Developer</span></div>
+          </div>
+        </div>
+        <div class="cover-visual" aria-label="All three Team MSC members">
+          <div class="cover-portraits">
+            <figure class="cover-person">
+              <img src="images/mama-ceesay.jpg" alt="Mama S. Ceesay" />
+              <figcaption><strong>Mama</strong><span>Project Leader</span></figcaption>
+            </figure>
+            <figure class="cover-person">
+              <img src="images/aziegbe-favour.jpg" alt="Aziegbe Favour Osetuohamen" />
+              <figcaption><strong>Aziegbe</strong><span>UI/UX Lead</span></figcaption>
+            </figure>
+            <figure class="cover-person">
+              <img src="images/johnson-victor.jpg" alt="Johnson Victor" />
+              <figcaption><strong>Johnson</strong><span>Frontend</span></figcaption>
+            </figure>
+          </div>
+          <div class="photo-caption"><span class="caption-dot"></span> Three people · one team</div>
+          <div class="cover-index">01 <span>/</span> 06</div>
+        </div>
+      </section>
+
+      <section class="slide" id="slide-2" aria-labelledby="slide2-title" hidden>
+        <header class="slide-heading">
+          <p class="eyebrow"><span class="eyebrow-dot"></span> 01 / Structure</p>
+          <h2 id="slide2-title">A clear structure.<br /><em>One connected experience.</em></h2>
+          <p>Three core files keep the portfolio easy to understand, style and maintain.</p>
+        </header>
+        <div class="structure-layout">
+          <div class="file-stack">
+            <article class="file-card file-html"><span class="file-icon">&lt;/&gt;</span><div><h3>index.html</h3><p>Semantic page content and portfolio sections</p></div><span class="file-kind">STRUCTURE</span></article>
+            <article class="file-card file-css"><span class="file-icon"><i class="bi bi-palette"></i></span><div><h3>css/style.css</h3><p>Visual system, CSS Grid and responsive styling</p></div><span class="file-kind">PRESENTATION</span></article>
+            <article class="file-card file-js"><span class="file-icon"><i class="bi bi-braces"></i></span><div><h3>js/script.js</h3><p>Navigation, interactions and form validation</p></div><span class="file-kind">BEHAVIOR</span></article>
+          </div>
+          <div class="sections-panel">
+            <div class="panel-top"><span>THE PORTFOLIO</span><i class="bi bi-arrow-up-right"></i></div>
+            <div class="section-row"><span>01</span><strong>Home</strong><i class="bi bi-house"></i></div>
+            <div class="section-row"><span>02</span><strong>About &amp; Skills</strong><i class="bi bi-lightning"></i></div>
+            <div class="section-row"><span>03</span><strong>Projects</strong><i class="bi bi-grid"></i></div>
+            <div class="section-row"><span>04</span><strong>Contact</strong><i class="bi bi-send"></i></div>
+            <p class="panel-note">A simple path from introduction to connection.</p>
+          </div>
+        </div>
+        <div class="slide-foot"><span>Semantic HTML · Organized assets · Shared team ownership</span><span>02</span></div>
+      </section>
+
+      <section class="slide" id="slide-3" aria-labelledby="slide3-title" hidden>
+        <header class="slide-heading">
+          <p class="eyebrow"><span class="eyebrow-dot"></span> 02 / Responsiveness</p>
+          <h2 id="slide3-title">Designed to feel right<br /><em>on every screen.</em></h2>
+          <p>Bootstrap 5 handles the responsive page grid; CSS Grid shapes flexible content layouts.</p>
+        </header>
+        <div class="responsive-showcase">
+          <article class="viewport-card viewport-mobile">
+            <div class="viewport-top"><span class="viewport-label"><i class="bi bi-phone"></i> MOBILE</span><span class="viewport-size">COMPACT</span></div>
+            <div class="device device-phone"><div class="device-bar"></div><div class="device-content"><i class="bi bi-person-circle"></i><b>One column</b><span>Content stacks for easy scrolling.</span><div class="device-lines"></div><div class="device-lines short"></div></div></div>
+            <p>Readable type, stacked sections, tap-friendly controls.</p>
+          </article>
+          <article class="viewport-card viewport-tablet">
+            <div class="viewport-top"><span class="viewport-label"><i class="bi bi-tablet"></i> TABLET</span><span class="viewport-size">BALANCED</span></div>
+            <div class="device device-tablet"><div class="device-content"><div class="tablet-block"></div><div class="tablet-block"></div><div class="tablet-block"></div><div class="tablet-block"></div></div></div>
+            <p>Bootstrap columns adapt; card grids gain breathing room.</p>
+          </article>
+          <article class="viewport-card viewport-desktop">
+            <div class="viewport-top"><span class="viewport-label"><i class="bi bi-display"></i> DESKTOP</span><span class="viewport-size">EXPANDED</span></div>
+            <div class="device device-desktop"><div class="desktop-nav"></div><div class="desktop-content"><div class="desktop-copy"><b>Designed for<br />the wider view.</b><div class="device-lines"></div></div><div class="desktop-photo"></div></div></div>
+            <p>Multi-column layouts and CSS Grid make full use of space.</p>
+          </article>
+        </div>
+        <div class="responsive-note"><i class="bi bi-arrows-angle-expand"></i><span><strong>Mobile first.</strong> Bootstrap breakpoints and flexible grids keep content useful as the viewport changes.</span><span class="tech-pill">BOOTSTRAP 5 + CSS GRID</span></div>
+        <div class="slide-foot"><span>Home · Team · Skills · Projects · Contact</span><span>03</span></div>
+      </section>
+
+      <section class="slide" id="slide-4" aria-labelledby="slide4-title" hidden>
+        <header class="slide-heading slide-heading-inline">
+          <div><p class="eyebrow"><span class="eyebrow-dot"></span> 03 / Features</p><h2 id="slide4-title">Work worth a closer look.</h2></div>
+          <p>Three live builds demonstrate the range of Mama's frontend portfolio.</p>
+        </header>
+        <div class="feature-projects">
+          <article class="feature-card">
+            <div class="feature-art fitness-art"><i class="bi bi-activity"></i><span>FITLIFE / GAMBIA</span></div>
+            <div class="feature-details"><div class="feature-number">01</div><div><h3>FitLife Gambia</h3><p>Fitness centre landing page with programmes and membership information.</p><div class="feature-links"><a href="https://mama124-max.github.io/FitLife-Gambia/" target="_blank" rel="noopener">Live demo <i class="bi bi-arrow-up-right"></i></a><a href="https://github.com/mama124-max/FitLife-Gambia" target="_blank" rel="noopener">GitHub <i class="bi bi-github"></i></a></div></div></div>
+          </article>
+          <article class="feature-card">
+            <div class="feature-art medium-art"><i class="bi bi-journal-richtext"></i><span>IDEAS / STORIES</span></div>
+            <div class="feature-details"><div class="feature-number">02</div><div><h3>Medium Landing Page</h3><p>Editorial-inspired experience for discovering and sharing ideas.</p><div class="feature-links"><a href="https://mama124-max.github.io/medium-landing-page/" target="_blank" rel="noopener">Live demo <i class="bi bi-arrow-up-right"></i></a><a href="https://github.com/mama124-max/medium-landing-page" target="_blank" rel="noopener">GitHub <i class="bi bi-github"></i></a></div></div></div>
+          </article>
+          <article class="feature-card">
+            <div class="feature-art portfolio-art"><i class="bi bi-person-workspace"></i><span>MAMA S. CEESAY</span></div>
+            <div class="feature-details"><div class="feature-number">03</div><div><h3>Mama Ceesay Portfolio</h3><p>Personal portfolio introducing the developer, skills and selected work.</p><div class="feature-links"><a href="https://mama124-max.github.io/mama-ceesay-portfolio/" target="_blank" rel="noopener">Live demo <i class="bi bi-arrow-up-right"></i></a><a href="https://github.com/mama124-max/mama-ceesay-portfolio" target="_blank" rel="noopener">GitHub <i class="bi bi-github"></i></a></div></div></div>
+          </article>
+        </div>
+        <div class="bonus-callout"><span class="bonus-icon"><i class="bi bi-check2-circle"></i></span><div><span class="bonus-label">BONUS REQUIREMENT</span><h3>Interactive contact form</h3><p>JavaScript validates name, email, subject and message; clear inline feedback guides the user before the email is prepared.</p></div><span class="bonus-tag">VALIDATE · GUIDE · SEND</span></div>
+        <div class="slide-foot"><span>Real demos and repositories · Form validation built into the portfolio</span><span>04</span></div>
+      </section>
+
+      <section class="slide slide-workflow" id="slide-5" aria-labelledby="slide5-title" hidden>
+        <div class="workflow-main">
+          <header class="slide-heading">
+            <p class="eyebrow"><span class="eyebrow-dot"></span> 04 / Collaboration</p>
+            <h2 id="slide5-title">A shared workflow.<br /><em>A site that ships.</em></h2>
+            <p>Git and GitHub made it easier to coordinate work, review updates and publish the finished portfolio.</p>
+          </header>
+          <div class="workflow-steps">
+            <div class="workflow-step"><span>01</span><i class="bi bi-diagram-3"></i><strong>Plan</strong><small>Agree on tasks</small></div>
+            <div class="workflow-connector"></div>
+            <div class="workflow-step"><span>02</span><i class="bi bi-code-slash"></i><strong>Build</strong><small>Work in files</small></div>
+            <div class="workflow-connector"></div>
+            <div class="workflow-step"><span>03</span><i class="bi bi-git"></i><strong>Review</strong><small>Share changes</small></div>
+            <div class="workflow-connector"></div>
+            <div class="workflow-step"><span>04</span><i class="bi bi-cloud-check"></i><strong>Publish</strong><small>GitHub Pages</small></div>
+          </div>
+          <div class="roles-strip"><span>TEAM ROLES</span><div><b>Mama</b> · Project leadership &amp; workflow</div><div><b>Aziegbe</b> · UI/UX &amp; presentation</div><div><b>Johnson</b> · Frontend development</div></div>
+        </div>
+        <aside class="live-panel">
+          <div class="live-status"><span class="live-pulse"></span> LIVE ON GITHUB PAGES</div>
+          <span class="live-label">OUR PROJECT</span>
+          <h3>Team MSC<br />Developer Portfolio</h3>
+          <p>Explore the finished website, meet the team and browse the work.</p>
+          <a class="live-url" href="https://mama124-max.github.io/developer-portfolio/" target="_blank" rel="noopener">mama124-max.github.io/<br />developer-portfolio/ <i class="bi bi-arrow-up-right"></i></a>
+          <a class="repo-link" href="https://github.com/mama124-max/developer-portfolio" target="_blank" rel="noopener"><i class="bi bi-github"></i> View the repository</a>
+        </aside>
+        <div class="slide-foot"><span>Plan → Build → Review → Publish</span><span>05</span></div>
+      </section>
+
+      <section class="slide slide-close" id="slide-6" aria-labelledby="slide6-title" hidden>
+        <div class="close-main">
+          <p class="eyebrow"><span class="eyebrow-dot"></span> 05 / Wrap-up</p>
+          <h2 id="slide6-title">Built together.<br /><em>Ready for what's next.</em></h2>
+          <p class="close-summary">We strengthened our responsive design, JavaScript validation, Git collaboration and project-presentation skills. Shared milestones and clear roles helped us stay focused through delivery.</p>
+          <div class="q-and-a"><span class="qa-icon"><i class="bi bi-chat-dots"></i></span><div><strong>Questions?</strong><span>We’re ready to talk through the design, code, workflow or next steps.</span></div><span class="qa-arrow"><i class="bi bi-arrow-up-right"></i></span></div>
+          <a class="close-url" href="https://mama124-max.github.io/developer-portfolio/" target="_blank" rel="noopener"><span class="close-url-label">LIVE PROJECT</span><span>mama124-max.github.io/developer-portfolio/</span><i class="bi bi-arrow-up-right"></i></a>
+        </div>
+        <aside class="agenda-panel">
+          <span class="agenda-label">10-MINUTE PRESENTATION</span>
+          <h3>Our run of show</h3>
+          <div class="agenda-row"><span>01</span><strong>Team &amp; project</strong><time>0:45</time></div>
+          <div class="agenda-row"><span>02</span><strong>Scope &amp; structure</strong><time>1:30</time></div>
+          <div class="agenda-row"><span>03</span><strong>Responsive build</strong><time>1:30</time></div>
+          <div class="agenda-row"><span>04</span><strong>Features &amp; projects</strong><time>2:00</time></div>
+          <div class="agenda-row"><span>05</span><strong>Workflow &amp; live site</strong><time>1:45</time></div>
+          <div class="agenda-row"><span>06</span><strong>Summary &amp; Q&amp;A</strong><time>2:30</time></div>
+          <div class="agenda-total"><span>10 minutes</span><span>Keep 2½ min for questions</span></div>
+        </aside>
+        <div class="slide-foot"><span>THANK YOU · TEAM MSC · BETECHIFIED WEEK 11</span><span>06</span></div>
+      </section>
+    </div>
+
+    <footer class="deck-controls">
+      <div class="slide-count"><span id="currentSlide">01</span><span class="count-divider">/</span><span>06</span></div>
+      <div class="slide-dots" role="group" aria-label="Choose a slide">
+        <button class="slide-dot is-current" type="button" data-go="0" aria-label="Go to slide 1" aria-current="step"></button>
+        <button class="slide-dot" type="button" data-go="1" aria-label="Go to slide 2"></button>
+        <button class="slide-dot" type="button" data-go="2" aria-label="Go to slide 3"></button>
+        <button class="slide-dot" type="button" data-go="3" aria-label="Go to slide 4"></button>
+        <button class="slide-dot" type="button" data-go="4" aria-label="Go to slide 5"></button>
+        <button class="slide-dot" type="button" data-go="5" aria-label="Go to slide 6"></button>
+      </div>
+      <div class="control-actions">
+        <span class="keyboard-hint">USE <kbd>←</kbd> <kbd>→</kbd></span>
+        <button class="print-button" type="button" id="printDeck"><i class="bi bi-printer"></i><span>Print / PDF</span></button>
+        <button class="nav-button" type="button" id="previousSlide" aria-label="Previous slide" disabled><i class="bi bi-arrow-left"></i></button>
+        <button class="nav-button next-button" type="button" id="nextSlide" aria-label="Next slide"><i class="bi bi-arrow-right"></i></button>
+      </div>
+    </footer>
+  </main>
+  <script src="js/presentation.js"></script>
+</body>
+</html>
